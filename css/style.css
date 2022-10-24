@@ -1,14 +1,22 @@
 body{
-    background-color: blue;
+    background-image: url();
 }
 
 div{
-    border: 10px;
-    border-color: black;
-    margin: 150px 100px 50px 100px;
-    padding: 0%;
+
+   
+    border: 2px solid black;
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    top: 37.5%;
+    left: 30%;
+
 }
 
-h1{
-    color: red;
+.message{
+    color: black;
+    text-align: center;
+    font-size:larger;
 }
+
