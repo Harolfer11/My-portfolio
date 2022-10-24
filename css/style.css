@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+
+div{
+    border: 10px;
+    border-color: black;
+    margin: 150px 100px 50px 100px;
+    padding: 0%;
+}
+
+h1{
+    color: red;
+}
