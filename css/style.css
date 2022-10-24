@@ -2,7 +2,7 @@ body{
     background-image: url();
 }
 
-div{
+.alert{
 
    
     border: 2px solid black;
@@ -22,30 +22,31 @@ div{
     font-size:larger;
 }
 
-@media(max-width:640px){
-
-div{
-    top: 32%;
-    left: 25%;
+.alert-mobile{
+    border: 2px solid black;
+    position: absolute;
+    height: 30%;
     width: 50%;
-    height: 36%;
-    
+    top: 35%;
+    left: 25%;
 }
 
-.message{
+@media(max-width:640px){
+
+.alert{
     display: none;
 }
 
 .mobile-message{
     position: absolute;
-    top: 12%;
+    top: 8%;
     font-size: medium;
     text-align: center;
 }
 }
 
 @media(min-width:641px) {
-    .mobile-message {
+    .alert-mobile {
         display: none
     }
   }
