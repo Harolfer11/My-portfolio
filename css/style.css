@@ -7,16 +7,46 @@ div{
    
     border: 2px solid black;
     position: absolute;
-    height: 25%;
+    height: 36%;
     width: 40%;
-    top: 37.5%;
+    top: 32%;
     left: 30%;
 
 }
 
 .message{
+    position: absolute;
+    top: 12%;
     color: black;
     text-align: center;
     font-size:larger;
 }
+
+@media(max-width:640px){
+
+div{
+    top: 32%;
+    left: 25%;
+    width: 50%;
+    height: 36%;
+    
+}
+
+.message{
+    display: none;
+}
+
+.mobile-message{
+    position: absolute;
+    top: 12%;
+    font-size: medium;
+    text-align: center;
+}
+}
+
+@media(min-width:641px) {
+    .mobile-message {
+        display: none
+    }
+  }
 
